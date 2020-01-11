@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="pane" prefHeight="459.0" prefWidth="331.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <TextField fx:id="textField" layoutX="24.0" layoutY="35.0" prefHeight="51.0" prefWidth="283.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </TextField>
+      <Circle fx:id="switchOff" fill="DODGERBLUE" layoutX="317.0" layoutY="14.0" radius="11.0" stroke="GREY" strokeType="INSIDE" />
+      <Circle fx:id="btn7" fill="DODGERBLUE" layoutX="50.0" layoutY="172.0" radius="26.0" stroke="GREY" strokeType="INSIDE" />
+      <Circle fx:id="btn8" fill="DODGERBLUE" layoutX="129.0" layoutY="172.0" radius="26.0" stroke="GREY" strokeType="INSIDE" />
+      <Circle fx:id="btn9" fill="DODGERBLUE" layoutX="206.0" layoutY="172.0" radius="26.0" stroke="GREY" strokeType="INSIDE" />
+      <Circle fx:id="btnDivided" fill="DODGERBLUE" layoutX="281.0" layoutY="172.0" radius="26.0" stroke="GREY" strokeType="INSIDE" />
+      <Circle fx:id="btnMultiply" fill="DODGERBLUE" layoutX="281.0" layoutY="249.0" radius="26.0" stroke="GREY" strokeType="INSIDE" />
+      <Circle fx:id="btn6" fill="DODGERBLUE" layoutX="206.0" layoutY="249.0" radius="26.0" stroke="GREY" strokeType="INSIDE" />
+      <Circle fx:id="btn5" fill="DODGERBLUE" layoutX="129.0" layoutY="249.0" radius="26.0" stroke="GREY" strokeType="INSIDE" />
+      <Circle fx:id="btn4" fill="DODGERBLUE" layoutX="50.0" layoutY="249.0" radius="26.0" stroke="GREY" strokeType="INSIDE" />
+      <Circle fx:id="btnMinus" fill="DODGERBLUE" layoutX="281.0" layoutY="329.0" radius="26.0" stroke="GREY" strokeType="INSIDE" />
+      <Circle fx:id="btn3" fill="DODGERBLUE" layoutX="206.0" layoutY="329.0" radius="26.0" stroke="GREY" strokeType="INSIDE" />
+      <Circle fx:id="btn2" fill="DODGERBLUE" layoutX="129.0" layoutY="329.0" radius="26.0" stroke="GREY" strokeType="INSIDE" />
+      <Circle fx:id="btn1" fill="DODGERBLUE" layoutX="50.0" layoutY="329.0" radius="26.0" stroke="GREY" strokeType="INSIDE" />
+      <Circle fx:id="btnPlus" fill="DODGERBLUE" layoutX="281.0" layoutY="404.0" radius="26.0" stroke="GREY" strokeType="INSIDE" />
+      <Circle fx:id="btnEquals" fill="DODGERBLUE" layoutX="206.0" layoutY="404.0" radius="26.0" stroke="GREY" strokeType="INSIDE" />
+      <Circle fx:id="btnZero" fill="DODGERBLUE" layoutX="129.0" layoutY="404.0" radius="26.0" stroke="GREY" strokeType="INSIDE" />
+      <Circle fx:id="btnCE" fill="DODGERBLUE" layoutX="50.0" layoutY="404.0" radius="26.0" stroke="GREY" strokeType="INSIDE" />
+   </children>
+</AnchorPane>
