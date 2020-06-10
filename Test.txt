@@ -1,1 +1,3 @@
 test
+Stroka1
+Stroka2
